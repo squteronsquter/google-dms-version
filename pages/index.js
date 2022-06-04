@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Google V3</title>
         <meta
@@ -18,6 +18,6 @@ export default function Home() {
       {/* Body */}
 
       {/* Footer */}
-    </div>
+    </>
   );
 }
