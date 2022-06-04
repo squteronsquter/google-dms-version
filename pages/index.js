@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -12,20 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mt-12 p-4">
-        <h1 className="text-3xl font-bold text-center text-gray-700">Google</h1>
-      </main>
+      {/* Header */}
+      <Header />
+      {/* Body */}
 
-      <footer className="text-center pt-8">
-        <a
-          className="text-small font-thin  text-gray-700"
-          href="https://insidedms.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Inside DMS
-        </a>
-      </footer>
+      {/* Footer */}
     </div>
   );
 }
